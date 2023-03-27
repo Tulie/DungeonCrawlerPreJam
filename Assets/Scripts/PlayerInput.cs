@@ -17,7 +17,7 @@ public class PlayerInput : MonoBehaviour
     public float range=2;
 
     PlayerController controller;
-    Camera myCamera = Camera.main;
+    [SerializeField] Camera myCamera; 
 
     private void Awake()
     {

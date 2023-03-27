@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
 
         } else
         {
-            targetGridPos = prevTargetGridPos;
+            //targetGridPos = prevTargetGridPos;
         }
     }
 
